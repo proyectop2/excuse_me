@@ -1,0 +1,69 @@
+.cajalogin{
+	width: 150px;
+	height: 20px;
+	font-size: 15px;
+}
+input{
+		border: 2px solid black;
+		border-radius: 7px ;
+		height: 25px;
+		align-self: center;
+	}
+
+.TabEncas{
+    background-color:#BDC4F0  ;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family:"verdana" ;
+    color: darkblue;
+  }
+
+  
+  ul, ol {
+        list-style:none;
+     }
+
+.navbar{
+  border-radius: 5px;
+  padding: 3px 20px;
+  border-color: darkblue;
+  background-color:#1A237E;
+  width: 97%;
+  height: 45px;
+   
+}    
+     
+.nav > li {
+     float:left;
+   }
+   
+   .nav li a {
+     background-color:#1A237E;
+     color:white;
+     text-decoration:none;
+     padding:6px 10px;
+     display:block;
+   }
+   
+.nav li a:hover {
+     background-color:#03A9F4;
+   }
+   
+.nav li ul {
+     display:none;
+     position:absolute;
+     min-width:140px;
+   }
+   
+.nav li:hover > ul {
+     display:block;
+   }
+   
+.nav li ul li {
+     position:relative;
+   }
+    
+.nav li ul li ul {
+     left:-140px;
+     top:0px;
+   }
