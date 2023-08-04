@@ -8,7 +8,7 @@ $fila=mysqli_fetch_array($cons);
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<title>registro</title>
+	<title>registrar</title>
 </head>
 <style type="text/css">
 </style>
